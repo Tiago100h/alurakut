@@ -75,7 +75,7 @@ export default function Home() {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'Authorization': `Bearer ${process.env.DATO_READ_ONLY_API_TOKEN}`,
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_DATO_READ_ONLY_API_TOKEN}`,
         },
         body: JSON.stringify({
           query: `
