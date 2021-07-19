@@ -1,3 +1,36 @@
+# Desafios
+## Aula 1
+- [ ] Pegar os dados da [API do GitHub](https://api.github.com/users/Tiago100h/followers) e listar seus seguidores
+- [ ] Adicionar quão confiável, legal e sexy você é
+- [ ] Usar Strategy ao invés de vários ifs no css
+- [ ] Separar e organizar o seu código
+- [x] Publicar o seu projeto
+- [ ] Deixar o seu projeto com a sua cara
+
+## Aula 2
+- [ ] Criar suas comunidades para compartilhar com a gente
+- [ ] Facilitar o cadastro da url da imagem
+- [ ] Adicionar links para as suas comunidades
+- [ ] Adicionar o seu projeto na nossa vitrine
+- [ ] Deixar o seu read me do projeto bonitão
+
+## Aula 3
+- [ ] Terminar de listar seus seguidores através da api do Github
+- [x] Adicionar suas comunidades no DatoCMS
+- [ ] Organizar os seus dados, pensando no que irá querer que apareça no seu Alurakut e criando os modelos que precisar
+- [x] Subir sua aplicação na Vercel
+
+## Aula 4
+- [ ] Configurar suas variáveis de ambiente
+- [ ] Fazer os scraps
+- [x] Subir sua aplicação na Vercel
+
+## Aula 5
+- [ ] Fazer o logout da aplicação
+- [ ] Mensagem de feedback quando não conseguir logar na aplicação
+- [ ] Criar página de perfil do usuário
+- [x] Subir a sua aplicação na Vercel e compartilhar com a gente
+
 # Example app with styled-components
 
 This example features how you use a different styling solution than [styled-jsx](https://github.com/vercel/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
