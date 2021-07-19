@@ -68,7 +68,6 @@ export default function Home() {
     })
 
     // API GrapQL
-    const token = 'adbaa9dbecfa203f17d2fd62ad3a4f';
     fetch(
       'https://graphql.datocms.com/',
       {
@@ -76,7 +75,7 @@ export default function Home() {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          'Authorization': `Bearer ${process.env.DATO_READ_ONLY_API_TOKEN}`,
         },
         body: JSON.stringify({
           query: `
